@@ -1,0 +1,56 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Roboto Serif';
+  font-weight: 500;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Custom styles for Swiper navigation arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: black;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: white;
+  font-size: 3rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Darker background on hover */
+}
+
+@media (max-width:768px) {
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    color: white;
+    font-size: 1.6rem;
+  }
+}
