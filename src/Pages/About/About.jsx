@@ -29,9 +29,7 @@ const About = () => {
             <i className="fa-solid fa-quote-left text-[3rem] opacity-[0.5]"></i>
             &nbsp; VIMS Dehradun was established in 2024 with the mission of
             delivering high-quality Since then the Institute is aimed on
-            imparting quality hospitality education that evolves with industry
-            trends, ensuring student receive current and relevant experience and
-            knowledge &nbsp;
+            imparting quality hospitality education. &nbsp;
             <i className="fa-solid fa-quote-right text-[3rem] opacity-[0.5]"></i>
           </p>
           <div className="mt-[1rem]">

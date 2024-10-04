@@ -60,7 +60,9 @@ const Footer = () => {
           </div>
 
           <div className="flex justify-center flex-col gap-[4rem] max-md:items-center max-md:text-center">
-            <h3 className="text-[2.5rem] max-md:text-[2rem] font-normal text-[white]">Products</h3>
+            <h3 className="text-[2.5rem] max-md:text-[2rem] font-normal text-[white]">
+              Products
+            </h3>
             <div className="flex flex-col gap-[2rem]">
               {footerproductlinks.map((e) => {
                 return (
@@ -79,7 +81,9 @@ const Footer = () => {
           </div>
 
           <div className="flex justify-center flex-col gap-[4rem] max-md:items-center max-md:text-center">
-            <h3 className="text-[2.5rem] max-md:text-[2rem] font-normal text-[white]">Support</h3>
+            <h3 className="text-[2.5rem] max-md:text-[2rem] font-normal text-[white]">
+              Support
+            </h3>
             <div className="flex flex-col gap-[2rem]">
               {footersupportlinks.map((e) => {
                 return (
@@ -98,7 +102,9 @@ const Footer = () => {
           </div>
 
           <div className="flex justify-center flex-col gap-[4rem] max-md:items-center max-md:text-center">
-            <h3 className="text-[2.5rem] max-md:text-[2rem] font-normal text-[white]">Legal</h3>
+            <h3 className="text-[2.5rem] max-md:text-[2rem] font-normal text-[white]">
+              Legal
+            </h3>
             <div className="flex flex-col gap-[2rem]">
               {footerlegallinks.map((e) => {
                 return (

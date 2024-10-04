@@ -61,9 +61,10 @@ const HomeProgram = () => {
               </div>
               <div className="mt-[1rem]">
                 <Link
-                  to={"/"}
-                  onClick={handleOnClick("/")}
-                  className="bg-[darkgreen] text-[white] px-[2rem] py-[0.5rem] text-[2rem] rounded-xl transition-all duration-[0.1s] ease-linear hover:opacity-[0.8]"
+                  to={"/academics"}
+                  onClick={handleOnClick("/academics")}
+                  className="bg-[darkgreen] text-[white] px-[2rem] py-[0.5rem] text-[2rem] rounded-xl transition-all 
+                  duration-[0.1s] ease-linear hover:opacity-[0.8]"
                 >
                   Know More
                 </Link>

@@ -6,13 +6,13 @@ export const FooterHelpfulLinks = [
   },
   {
     id: 2,
-    to: `/`,
+    to: `/about`,
     name: `About`,
   },
   {
     id: 3,
-    to: `/`,
-    name: `Service`,
+    to: `/academics`,
+    name: `Academics`,
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ export const FooterLatestProgramLinks = [
 export const FooterProductLinks = [
   {
     id: 1,
-    to: `/`,
+    to: `/about`,
     name: `About Us`,
   },
   {
