@@ -9,11 +9,13 @@ const AcademicsMain = () => {
         </h2>
       </div>
       <div
-        className="pt-[6rem] pb-[6rem] px-[20rem] w-[100%] relative bg-[white] max-xl:px-[5rem] max-md:px-[2rem] max-md:py-[4rem]"
+        className="pt-[6rem] pb-[6rem] px-[20rem] w-[100%] relative bg-[url('/Images/Academics/1.jpg')] 
+        bg-no-repeat bg-center bg-cover max-xl:px-[5rem] max-md:px-[2rem] max-md:py-[4rem]"
         id="academicsmain"
       >
-        <div className="flex flex-col gap-[2rem]">
-          <p className="text-[2rem] text-[#212121] font-normal max-md:text-[1.6rem]">
+        <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#f2f2f2] opacity-[0.7]"></div>
+        <div className="flex flex-col gap-[2rem] relative">
+          <p className="text-[2rem] text-[#313131] font-medium max-md:text-[1.6rem]">
             Upon completing a Diploma in Hotel Management, graduates are
             equipped with the skills and knowledge necessary for a diverse range
             of exciting career opportunities in the hospitality industry. They
@@ -23,7 +25,7 @@ const AcademicsMain = () => {
             opportunities are abound in food and beverage management, where
             graduates can manage dining establishments within hotels.
           </p>
-          <p className="text-[2rem] text-[#212121] font-normal max-md:text-[1.6rem]">
+          <p className="text-[2rem] text-[#313131] font-medium max-md:text-[1.6rem]">
             For those with an interest in the meticulous aspects of hospitality,
             a position as Housekeeping Manager ensures high standards of
             cleanliness and guest comfort. Graduates with a flair for event

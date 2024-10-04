@@ -37,26 +37,26 @@ export const AcademicsDetailData = [
   {
     id: 8,
     img: `/Images/About/2.jpg`,
-    imgclass: `max-xl:col-span-2 max-lg:col-span-1`,
+    imgclass: `max-xl:col-span-1 max-lg:col-span-1`,
   },
   {
     id: 9,
     img: `/Images/Academics/2.jpg`,
-    imgclass: `max-xl:col-span-2 max-lg:col-span-1`,
+    imgclass: `max-xl:col-span-1 max-lg:col-span-1`,
   },
   {
     id: 10,
     img: `/Images/Academics/3.jpg`,
-    imgclass: `max-xl:col-span-2 max-lg:col-span-1`,
+    imgclass: `max-xl:col-span-1 max-lg:col-span-1`,
   },
   {
     id: 11,
     img: `/Images/Academics/4.jpg`,
-    imgclass: `max-xl:col-span-2 max-lg:col-span-1`,
+    imgclass: `max-xl:col-span-1 max-lg:col-span-1`,
   },
   {
     id: 12,
     img: `/Images/Academics/5.jpg`,
-    imgclass: `max-xl:col-span-2 max-lg:col-span-1`,
+    imgclass: `max-xl:col-span-1 max-lg:col-span-1`,
   },
 ];

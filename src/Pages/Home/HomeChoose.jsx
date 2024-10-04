@@ -23,7 +23,9 @@ const HomeChoose = () => {
               <h2 className="text-[white] font-normal text-[3rem] max-sm:text-[2rem]">
                 {e.title}
               </h2>
-              <p className="text-[2rem] text-[white] max-sm:text-[1.6rem]">{e.desc}</p>
+              <p className="text-[2rem] text-[white] max-sm:text-[1.6rem]">
+                {e.desc}
+              </p>
             </div>
           );
         })}

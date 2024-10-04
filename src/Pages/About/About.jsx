@@ -4,8 +4,12 @@ import AboutMain from "./AboutMain";
 import Footer from "../../Components/Footer/Footer";
 import AboutMission from "./AboutMission";
 import AboutVision from "./AboutVision";
+import { Link } from "react-router-dom";
+import Handlers from "../../Services/Handlers";
 
 const About = () => {
+  const { handleOnClick } = Handlers();
+
   return (
     <>
       <Nav />
@@ -31,13 +35,14 @@ const About = () => {
             <i className="fa-solid fa-quote-right text-[3rem] opacity-[0.5]"></i>
           </p>
           <div className="mt-[1rem]">
-            <a
-              href="#aboutmain"
+            <Link
+              to={`/academics`}
+              onClick={handleOnClick(`/academics`)}
               className="bg-[darkgreen] text-[white] px-[2rem] py-[0.5rem] text-[2rem] rounded-xl transition-all
               duration-[0.1s] ease-linear hover:opacity-[0.8]"
             >
-              Explore More
-            </a>
+              Explore Academics
+            </Link>
           </div>
         </div>
       </div>
